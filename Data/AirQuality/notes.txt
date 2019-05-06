@@ -1,0 +1,2 @@
+longitudes and latitudes for 6E are not for ISU
+0.2343092,32.5596603

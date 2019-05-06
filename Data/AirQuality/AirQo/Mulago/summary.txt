@@ -1,0 +1,3 @@
+coordinates for mulago
+ 0.337679, 32.577198 
+
