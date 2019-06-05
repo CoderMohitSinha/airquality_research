@@ -6,22 +6,23 @@ Request File Listing ............................... 2
 Point Sample Extraction Process .................... 3
 Data Quality ....................................... 4
   Moderate Resolution Imaging
-    Spectroradiometer (MODIS) .................... 4.1
+    Spectroradiometer (MODIS) ................... 4.01
   NASA MEaSUREs Web Enabled
-    Landsat Data (WELD) .......................... 4.2
+    Landsat Data (WELD) ......................... 4.02
   NASA MEaSUREs Shuttle Radar Topography
-    Mission (SRTM) Version 3 (v3) ................ 4.3
+    Mission (SRTM) Version 3 (v3) ............... 4.03
   Gridded Population of the World (GPW)
-    Version 4 (v4) ............................... 4.4
+    Version 4 (v4) .............................. 4.04
   Suomi National Polar-orbiting Partnership (S-NPP)
     NASA Visible Infrared Imaging Radiometer Suite
-    (VIIRS) ...................................... 4.5
-  Soil Moisture Active Passive (SMAP) ............ 4.6
+    (VIIRS) ..................................... 4.05
+  Soil Moisture Active Passive (SMAP) ........... 4.06
   MODIS Simplified Surface Energy Balance (SSEBop)
-    Actual Evapotranspiration (ETa) .............. 4.7
+    Actual Evapotranspiration (ETa) ............. 4.07
   eMODIS Smoothed Normalized Difference Vegetation
-    Index (NDVI) ................................. 4.8
-  Daymet ......................................... 4.9
+    Index (NDVI) ................................ 4.08
+  Daymet ........................................ 4.09
+  U.S. Landsat Analysis Ready Data (ARD) ........ 4.10
 Data Caveats ....................................... 5
 Documentation ...................................... 6
 Sample Request Retention ........................... 7
@@ -32,9 +33,9 @@ Feedback ........................................... 10
 
 1. Request Parameters
    ------------------
-Name: makindye_ris_vi_2017_2019
-Date Completed: 2019-04-30T09:11:24.948962
-Id: 73f26339-2937-493b-baf2-d1365a34f191
+Name: makindye-vi-2017-2019
+Date Completed: 2019-06-02T15:07:31.414185
+Id: 1dfd9ec9-513f-45ec-93e3-6dc90174951b
 Details:
   Start Date: 01-01-2017
   End Date: 04-30-2019
@@ -42,25 +43,25 @@ Details:
       _1_km_monthly_EVI (MOD13A3.006)
       _1_km_monthly_NDVI (MOD13A3.006)
   Coordinates:
-      0.2828274, 32.6021926
+      0.283671, 32.600376
 
 Version:
-    This request was processed by AppEEARS version 2.20
+    This request was processed by AppEEARS version 2.21
 
 
 2. Request File Listing
    --------------------
 
-makindye-ris-vi-2017-2019-MOD13A3-006-results.csv
+makindye-vi-2017-2019-MOD13A3-006-results.csv
   Comma-separated values file with data extracted for a specific product
 
-makindye-ris-vi-2017-2019-granule-list.txt
+makindye-vi-2017-2019-granule-list.txt
   Text file with data pool URLs for all source granules used in the extraction
 
-makindye-ris-vi-2017-2019-request.json
+makindye-vi-2017-2019-request.json
   JSON request file which can be used in AppEEARS to create a new request
 
-makindye-ris-vi-2017-2019-MOD13A3-006-metadata.xml
+makindye-vi-2017-2019-MOD13A3-006-metadata.xml
   xml file
 
 
@@ -104,8 +105,8 @@ available through AppEEARS have an associated QA data layer. Some products have
 more than one QA data layer to consult. See below for more information
 regarding data collections/products and their associated QA data layers.
 
- 4.1 MODIS (Terra, Aqua, & Combined)
-     -------------------------------
+ 4.01 MODIS (Terra, Aqua, & Combined)
+      -------------------------------
   All MODIS land products, as well as the MODIS Snow Cover Daily product,
   include quality assurance (QA) information designed to help users understand
   and make best use of the data that comprise each product. Results downloaded
@@ -118,8 +119,8 @@ regarding data collections/products and their associated QA data layers.
  - See the MODIS Snow Cover Daily product user guide for information
   regarding QA utilization and interpretation.
 
- 4.2 NASA MEaSUREs WELD (CONUS & Alaska)
-     -----------------------------------
+ 4.02 NASA MEaSUREs WELD (CONUS & Alaska)
+      -----------------------------------
   Each WELD product contains a pixel saturation band and two cloud detection
   bands generated using the Landsat automatic cloud cover assessment (ACCA)
   algorithm and a decision tree based cloud detection approach. These bands
@@ -132,8 +133,8 @@ regarding data collections/products and their associated QA data layers.
   or Roy et al. 2010 (http://dx.doi.org/10.1016/j.rse.2009.08.011) for details
   regarding these bands.
 
- 4.3 NASA MEaSUREs SRTM v3 (30m & 90m)
-     ---------------------------------
+ 4.03 NASA MEaSUREs SRTM v3 (30m & 90m)
+      ---------------------------------
   SRTM v3 products are accompanied by an ancillary "NUM" file in place of the
   QA/QC files. The "NUM" files indicate the source of each SRTM pixel, as well
   as the number of input data scenes used to generate the SRTM v3 data for that
@@ -142,8 +143,8 @@ regarding data collections/products and their associated QA data layers.
   public/measures/docs/NASA_SRTM_V3.pdf) for additional information regarding
   the SRTM "NUM" file.
 
- 4.4 GPW v4
-     ------
+ 4.04 GPW v4
+      ------
   The GPW Population Count and Population Density data layers are accompanied
   by two Data Quality Indicators datasets. The Data Quality Indicators were
   created to provide context for the population count and density grids, and to
@@ -155,8 +156,8 @@ regarding data collections/products and their associated QA data layers.
   kilometers. It provides a quantitative surface that indicates the size of the
   input unit(s) from which the population count and density grids were created.
 
- 4.5 S-NPP NASA VIIRS
-     ----------------
+ 4.05 S-NPP NASA VIIRS
+      ----------------
   All S-NPP NASA VIIRS land products include quality information
   designed to help users understand and make best use of the data that comprise
   each product. For product-specific information, see the link to the S-NPP
@@ -176,8 +177,8 @@ regarding data collections/products and their associated QA data layers.
     refer to the S-NPP NASA VIIRS Surface Reflectance User's guide Version 1.6
   (https://lpdaac.usgs.gov/sites/default/files/public/product_documentation/vnp09_user_guide_v1.6.pdf).
 
- 4.6 SMAP
-     ----
+ 4.06 SMAP
+      ----
   SMAP products provide multiple means to assess quality. Each data product
   contains bit flags, uncertainty measures, and file-level metadata that provide
   quality information. Results downloaded from AppEEARS and/or data directly
@@ -188,20 +189,20 @@ regarding data collections/products and their associated QA data layers.
   to the Quality Assessment section of the user guide for the specific SMAP data
   product in your request (https://nsidc.org/data/smap/smap-data.html).
 
- 4.7 SSEBop Actual Evapotranspiration (ETa)
-     ---------
+ 4.07 SSEBop Actual Evapotranspiration (ETa)
+      ---------
   The SSEBop evapotranspiration monthly product does not have associated quality
   indicators or data layers. The data are considered to satisfy the quality
   standards relative to the purpose for which the data were collected.
 
- 4.8 eMODIS Smoothed Normalized Difference Vegetation Index (NDVI)
-     --------------------
+ 4.08 eMODIS Smoothed Normalized Difference Vegetation Index (NDVI)
+      --------------------
   The smoothed eMODIS NDVI product does not have associated quality
   indicators or data layers. The data are considered to satisfy the quality
   standards relative to the purpose for which the data were collected.
 
- 4.9 Daymet
-     ------
+ 4.09 Daymet
+      ------
   Daymet station-level daily weather observation data and the corresponding Daymet 
   model predicted data for three Daymet model parameters: minimum temperature (tmin), 
   maximum temperature (tmax), and daily total precipitation (prcp) are available.
@@ -211,6 +212,20 @@ regarding data collections/products and their associated QA data layers.
   variable-year combinations are also available.
   https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1391
 
+ 4.10 U.S. Landsat ARD
+      ----------------
+  Quality assessment bands for the U.S. Landsat ARD data products are produced 
+  from Level 1 inputs with additional calculations derived from higher-level 
+  processing. A pixel quality assessment band describing the general state of 
+  each pixel is supplied with each AppEEARS request. In addition to the pixel 
+  quality assessment band, Landsat ARD data products also have additional bands 
+  that can be used to evaluate the usability and usefulness of the data. These 
+  include bands that characterize radiometric saturation, as well as parameters 
+  specific to atmospheric correction. Refer to the U.S. Landsat ARD Data Format 
+  Control Book (DFCB) 
+  (https://www.usgs.gov/media/files/landsat-analysis-ready-data-ard-data-format-control-book-dfcb) 
+  for a full description of the quality assessment bands for each product (L4-L8)
+  as well as guidance on interpreting each band’s bit-packed data values.
 
 5. Data Caveats
    ------------
@@ -282,6 +297,10 @@ Documentation for data products available through AppEEARS are listed below.
   - https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1328
   - https://daymet.ornl.gov/
 
+ U.S. Landsat ARD
+ ----------------
+  - https://www.usgs.gov/land-resources/nli/landsat/us-landsat-analysis-ready-data?qt-science_support_page_related_con=0#qt-science_support_page_related_con
+
 
 7. Sample Request Retention
    ------------------------
@@ -291,12 +310,12 @@ Please visit https://lpdaacsvc.cr.usgs.gov/appeears/help?section=sample-retentio
 
 8. Data Product Citations
    ----------------------
- Didan, K. (2015). MOD13A3 MODIS/Terra vegetation Indices Monthly L3 Global 1km SIN Grid V006. NASA EOSDIS Land Processes DAAC. doi: 10.5067/MODIS/MOD13A3.006. Accessed April 30, 2019.
+ Didan, K. (2015). MOD13A3 MODIS/Terra vegetation Indices Monthly L3 Global 1km SIN Grid V006. NASA EOSDIS Land Processes DAAC. doi: 10.5067/MODIS/MOD13A3.006. Accessed June 2, 2019.
  
 
 9. Software Citation
    -----------------
- AppEEARS Team. (2019). Application for Extracting and Exploring Analysis Ready Samples (AppEEARS). Ver. 2.20. NASA EOSDIS Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, USA. Accessed April 30, 2019. https://lpdaacsvc.cr.usgs.gov/appeears
+ AppEEARS Team. (2019). Application for Extracting and Exploring Analysis Ready Samples (AppEEARS). Ver. 2.22. NASA EOSDIS Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, USA. Accessed June 2, 2019. https://lpdaacsvc.cr.usgs.gov/appeears
 
 
 10. Feedback
