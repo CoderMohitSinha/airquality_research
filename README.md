@@ -10,8 +10,10 @@ The data folder has 3 subfolders i.e
 **AirQuality**
   AirQuality folder contains raw airquality data for each location inside the AirQo folder.
   Also generated files after preprocessing and analysis for each location are stored in the location folder.
+
 ** Met **
   Met folder contains raw meteorological data.
+
 ** MODIS ** 
    Modis folder contains raw greenness data stored in each locations folder
 
@@ -35,3 +37,4 @@ NB: all generated files are stored in the respective location folder inside the 
 ## Packages(Required)
 ### File **airquality_prediction_analysis_package_list.txt** contains the packages in the environment used to preprocess ,train and evaluate models.
 
+data_analysis_using_R folder contains the results and data used for generating calendarplots in R using the openair package.
