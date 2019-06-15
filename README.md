@@ -11,10 +11,10 @@ The data folder has 3 subfolders i.e
   AirQuality folder contains raw airquality data for each location inside the AirQo folder.
   Also generated files after preprocessing and analysis for each location are stored in the location folder.
 
-** Met **
+**Met**
   Met folder contains raw meteorological data.
 
-** MODIS ** 
+**MODIS** 
    Modis folder contains raw greenness data stored in each locations folder
 
 ### Files listed below(notebooks) contain the python code for data preparation and analysis.
@@ -25,7 +25,7 @@ The data folder has 3 subfolders i.e
 
 The outputs from running the files above are stored in the respective folder for the location.
 
-One of the outputs i.e **merged_daily_airquality_greenness_meteorological_dataset.csv** contains the data that is used for training, evaluating models for the respective location.
+One of the outputs i.e **merged_hourly_airquality_greenness_meteorological_dataset.csv** contains the data that is used for training, evaluating models for the respective location.
 
 ### File listed below contains the python code for preprocessing data to format neural network can ingest and for training and evaluating 
 models(SVR and Deep LSTM) models.
