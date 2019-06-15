@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+﻿## Guide
 
-You can use the [editor on GitHub](https://github.com/sserurich/airqualityforecasting/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Files listed below(notebooks) contain the python code for data preparation and analysis.
+- **air_quality_data_preprocesing_and_analysis_kireka_jinja_road_rubaga.ipynb**
+- **air_quality_data_preprocesing_and_analysis.ipynb for (makerere,bugolobi, makindye,mulago, bukoto)**
+- **air_quality_data_preprocesing_and_analysis_lubowa.ipynb**
+- **air_quality_data_preprocesing_and_analysis_nsambya_usembasy.ipynb**
 
-### Markdown
+The outputs from running the files above are stored in the respective folder for the location.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+One of the outs **merged_daily_airquality_greenness_meteorological_dataset.csv** contains the data that is used for training, evaluating models for the respective location.
 
-```markdown
-Syntax highlighted code block
+### File listed below contains the python code for preprocessing data to format neural network can ingest and for training and evaluating 
+models(SVR and Deep LSTM) models.
 
-# Header 1
-## Header 2
-### Header 3
+- **air_quality_prediction_experimentation.ipynb**
 
-- Bulleted
-- List
+### File **airquality_prediction_analysis_package_list.txt** contains the packages in the environment used to preprocess ,train and evaluate models.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sserurich/airqualityforecasting/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
