@@ -1,0 +1,4 @@
+MonthOfYear,PM1(Ug/m3),PM10(Ug/m3),PM2.5(Ug/m3),EVI,NDVI,average humidity (%),total rainfall (mm),average pressure (kPa),total radiation (W/m2),average temperature (oC),predominant winddirection,average windspeed (m/s)
+01-2019,22.94,33.75,28.23,0.3699,0.5508,77.2,101.89,87.655,120291.58,23.56,SE,1.87
+02-2019,25.64,37.62,29.77,0.307,0.503,72.64,83.31,87.62200000000001,133341.67,24.29,SE,1.5
+03-2019,23.62,34.81,27.91,0.308,0.4877,73.59,38.9,87.671,167422.77,23.98,S,0.66
