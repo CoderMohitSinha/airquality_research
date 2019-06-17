@@ -33,12 +33,12 @@ Feedback ........................................... 10
 
 1. Request Parameters
    ------------------
-Name: kireka_vi_2017_2019
-Date Completed: 2019-06-02T14:18:39.854926
-Id: c55de60a-cbad-4063-b5ea-0b00cf70ca36
+Name: kireka_vi_2019
+Date Completed: 2019-06-15T17:38:11.406242
+Id: bf8382a0-19b1-4507-942a-0d50c829a508
 Details:
   Start Date: 01-01-2017
-  End Date: 04-30-2019
+  End Date: 06-15-2019
   Layers:
       _1_km_monthly_EVI (MOD13A3.006)
       _1_km_monthly_NDVI (MOD13A3.006)
@@ -46,22 +46,22 @@ Details:
       0.34616, 32.64833
 
 Version:
-    This request was processed by AppEEARS version 2.21
+    This request was processed by AppEEARS version 2.23
 
 
 2. Request File Listing
    --------------------
 
-kireka-vi-2017-2019-MOD13A3-006-results.csv
+kireka-vi-2019-MOD13A3-006-results.csv
   Comma-separated values file with data extracted for a specific product
 
-kireka-vi-2017-2019-granule-list.txt
+kireka-vi-2019-granule-list.txt
   Text file with data pool URLs for all source granules used in the extraction
 
-kireka-vi-2017-2019-request.json
+kireka-vi-2019-request.json
   JSON request file which can be used in AppEEARS to create a new request
 
-kireka-vi-2017-2019-MOD13A3-006-metadata.xml
+kireka-vi-2019-MOD13A3-006-metadata.xml
   xml file
 
 
@@ -310,12 +310,12 @@ Please visit https://lpdaacsvc.cr.usgs.gov/appeears/help?section=sample-retentio
 
 8. Data Product Citations
    ----------------------
- Didan, K. (2015). MOD13A3 MODIS/Terra vegetation Indices Monthly L3 Global 1km SIN Grid V006. NASA EOSDIS Land Processes DAAC. doi: 10.5067/MODIS/MOD13A3.006. Accessed June 2, 2019.
+ Didan, K. (2015). MOD13A3 MODIS/Terra vegetation Indices Monthly L3 Global 1km SIN Grid V006. NASA EOSDIS Land Processes DAAC. doi: 10.5067/MODIS/MOD13A3.006. Accessed June 15, 2019.
  
 
 9. Software Citation
    -----------------
- AppEEARS Team. (2019). Application for Extracting and Exploring Analysis Ready Samples (AppEEARS). Ver. 2.22. NASA EOSDIS Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, USA. Accessed June 2, 2019. https://lpdaacsvc.cr.usgs.gov/appeears
+ AppEEARS Team. (2019). Application for Extracting and Exploring Analysis Ready Samples (AppEEARS). Ver. 2.23. NASA EOSDIS Land Processes Distributed Active Archive Center (LP DAAC), USGS/Earth Resources Observation and Science (EROS) Center, Sioux Falls, South Dakota, USA. Accessed June 15, 2019. https://lpdaacsvc.cr.usgs.gov/appeears
 
 
 10. Feedback
