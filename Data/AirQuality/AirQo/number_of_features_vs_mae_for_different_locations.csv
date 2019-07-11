@@ -1,0 +1,5 @@
+Number of Features,MAE_Lubowa,MAE_JinjaRoad,MAE_Rubaga,MAE_Kireka,MAE_Nsambya
+One Feature,4.97,8.27,14.51,33.33,13.65
+Three Features,8.81,13.06,16.21,35.15,20.12
+Five Features,7.62,12.36,15.58,30.62,20.95
+All Features,6.94,14.75,19.53,63.86,23.52

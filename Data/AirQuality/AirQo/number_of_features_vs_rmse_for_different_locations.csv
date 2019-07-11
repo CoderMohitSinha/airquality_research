@@ -1,0 +1,5 @@
+Number of Features,RMSE_Lubowa,RMSE_Rubaga,RMSE_Kireka,RMSE_JinjaRoad,RMSE_Nsambya
+One Feature,7.54,23.53,49.29,11.34,20.45
+Three Features,10.25,24.72,50.12,16.18,26.3
+Five Features,9.11,23.25,45.12,15.5,25.87
+All Features,8.69,27.53,75.57,17.95,30.6

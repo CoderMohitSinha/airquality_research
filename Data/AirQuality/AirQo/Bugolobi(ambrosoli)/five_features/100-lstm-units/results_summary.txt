@@ -1,0 +1,9 @@
+SVR RMSE : 77.89
+ SVR MAE : 62.72 
+ Basic LSTM RMSE: 12.41 
+ Basic LSTM MAE: 8.74 
+ Basic LSTM Evaluation Results: [154.07628969045786, 8.737855844008617, 11.12499225139618] 
+ Deep LSTM RMSE : 61.48 
+ Deep LSTM MAE: 55.57 
+ Deep LSTM Evaluation Results: [3779.684869717329, 55.56704048010019, 59.98497300270276], 
+ metrics ['loss', 'mean_absolute_error', 'rmse']

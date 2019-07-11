@@ -1,0 +1,5 @@
+Number of Features,RMSE_Makerere,RMSE_Bugolobi,RMSE_Mulago,RMSE_Makindye,RMSE_Bukoto
+One Feature,7.58,6.83,8.48,7.22,8.98
+Three Features,6.85,61.12,19.38,36,35.87
+Five Features,6.32,59.98,19.43,36.88,11.73
+All Features,6.28,50.89,20.75,35.95,11.8
