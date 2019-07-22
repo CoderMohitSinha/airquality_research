@@ -1,0 +1,5 @@
+Number of Features,Deep LSTM,SVR,GP
+One Feature,23.53,23.39,
+Three Features,24.72,23.17,
+Five Features,23.25,22.48,
+All Features,27.53,23.58,

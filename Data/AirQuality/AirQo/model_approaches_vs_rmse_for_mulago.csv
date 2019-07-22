@@ -1,0 +1,5 @@
+Model Approach,RMSE_One_Feature,RMSE_Three_Features,RMSE_Five_Features,RMSE_All_Features
+Deep LSTM,8.48,19.38,19.43,20.75
+SVR," 8.86
+",26.49,25.79,40.76
+GP,,,,

@@ -1,0 +1,4 @@
+Model Approach,RMSE_Lubowa,RMSE_Rubaga,RMSE_Kireka,RMSE_JinjaRoad,RMSE_Nsambya
+Deep LSTM,,,,,
+SVR,,,,,
+GP,,,,,
